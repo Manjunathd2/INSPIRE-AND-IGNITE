@@ -44,7 +44,7 @@ const Contact = () => {
     {
       title: "Registration Portal",
       description: "Access online registration forms",
-      available: "Opens Aug 10 & 15, 2025",
+      available: "Opens Aug 15, 2025",
       status: "upcoming",
       icon: Calendar
     },
@@ -58,7 +58,7 @@ const Contact = () => {
     {
       title: "Public Voting Platform",
       description: "Vote for teacher nominations",
-      available: "Opens Aug 15, 2025", 
+      available: "Opens Sept 20 2025", 
       status: "upcoming",
       icon: Users
     }
@@ -76,9 +76,9 @@ const Contact = () => {
   ];
 
   const importantDates = [
-    { event: "Drawing Registration Opens", date: "August 10, 2025" },
+    { event: "Drawing Registration Opens", date: "August 15, 2025" },
     { event: "Teacher Nominations Open", date: "August 15, 2025" },
-    { event: "State Level Finals", date: "November 1, 2025" },
+    { event: "State Level Finals", date: "November 2, 2025" },
     { event: "Grand Award Ceremony", date: "December 1st Week, 2025" }
   ];
 

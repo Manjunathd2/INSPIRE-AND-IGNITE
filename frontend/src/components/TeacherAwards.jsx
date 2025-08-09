@@ -220,13 +220,13 @@ const TeacherAwards = () => {
     {
       step: "1",
       title: "Nomination Opens",
-      date: "August 15, 2025",
+      date: "Aug 15 -Sept 15, 2025",
       description: "Online portal opens for teacher and school nominations with detailed forms and requirements."
     },
     {
       step: "2", 
       title: "Public Voting",
-      date: "Aug 15 - Nov 1, 2025",
+      date: "Sept 20 - Nov 1, 2025",
       description: "Community members can vote and show support for nominated teachers and schools through official portal."
     },
     {
@@ -238,7 +238,7 @@ const TeacherAwards = () => {
     {
       step: "4",
       title: "Final Selection",
-      date: "December 2025",
+      date: "Dec 2025",
       description: "Winners announced and honored at the grand award ceremony in Bengaluru with prizes and recognition."
     }
   ];
@@ -246,13 +246,11 @@ const TeacherAwards = () => {
   const prizes = [
     {
       category: "Best Teachers",
-      amount: "₹7,500",
       items: ["Prestigious Award Plaque", "Certificate of Recognition", "Cash Prize", "Goodies Package"],
       icon: GraduationCap
     },
     {
       category: "Best Schools", 
-      amount: "₹15,000",
       items: ["Award Trophy", "Certificate of Excellence", "Cash Prize", "Recognition Package"],
       icon: School
     }
@@ -489,10 +487,7 @@ const TeacherAwards = () => {
                     <h4 className="text-2xl font-bold text-slate-900 text-center mb-2">
                       {prize.category}
                     </h4>
-                    <div className="text-center mb-6">
-                      <span className="text-3xl font-bold text-emerald-600">{prize.amount}</span>
-                      <p className="text-slate-600">Cash Prize</p>
-                    </div>
+                    
                     <div className="space-y-3">
                       {prize.items.map((item, idx) => (
                         <div key={idx} className="flex items-center gap-3 bg-white rounded-lg p-3 shadow-sm">

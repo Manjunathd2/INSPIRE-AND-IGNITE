@@ -11,21 +11,21 @@ const Prizes = () => {
       prizes: [
         {
           position: "1st Prize",
-          amount: "₹5,000",
+          amount: "₹50,000",
           items: ["Trophy", "Certificate of Excellence", "Cash Prize", "Goodies"],
           color: "from-yellow-400 to-amber-500",
           icon: Trophy
         },
         {
           position: "2nd Prize", 
-          amount: "₹3,000",
+          amount: "₹30,000",
           items: ["Trophy", "Certificate of Excellence", "Cash Prize", "Goodies"],
           color: "from-slate-300 to-slate-500",
           icon: Medal
         },
         {
           position: "3rd Prize",
-          amount: "₹2,000", 
+          amount: "₹20,000", 
           items: ["Trophy", "Certificate of Excellence", "Cash Prize", "Goodies"],
           color: "from-amber-600 to-orange-700",
           icon: Award
@@ -267,7 +267,7 @@ const Prizes = () => {
               <Trophy className="w-16 h-16 mx-auto mb-6" />
               <h3 className="text-3xl font-bold mb-4">Total Prize Pool</h3>
               <p className="text-xl mb-6 opacity-90">
-                Over ₹50,000 in cash prizes plus trophies, certificates, and recognition for hundreds of participants
+                Over ₹5,00,000 in cash prizes plus trophies, certificates, and recognition for hundreds of participants
               </p>
               <p className="text-lg opacity-80">
                 Join us in celebrating artistic talent and educational excellence across Karnataka

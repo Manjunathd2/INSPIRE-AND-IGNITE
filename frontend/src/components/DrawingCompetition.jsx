@@ -74,28 +74,28 @@ const DrawingCompetition = () => {
     {
       phase: "Phase 1",
       level: "School Level",
-      duration: "Sept 1-10, 2025",
+      duration: "September 1-5, 2025",
       icon: MapPin,
-      description: "Internal school competitions to identify promising artists. Maximum 3 winners per category."
+      description: "Internal school competitions to identify promising artists."
     },
     {
       phase: "Phase 2", 
       level: "Taluk Level",
-      duration: "Sept 15-30, 2025",
+      duration: "September 10-20, 2025",
       icon: Users,
-      description: "Winners from various schools compete at taluk level. Top 3 per category advance."
+      description: "Winners from various schools compete at taluk level."
     },
     {
       phase: "Phase 3",
       level: "District Level", 
-      duration: "Oct 1-31, 2025",
+      duration: "October 10 - 20, 2025",
       icon: Star,
-      description: "Taluk winners compete at district level. Best 3 per category proceed to state level."
+      description: "Taluk winners compete at district level."
     },
     {
       phase: "Phase 4",
       level: "State Level",
-      duration: "Nov 1, 2025",
+      duration: "November 2, 2025",
       icon: Trophy,
       description: "Grand finale in Bengaluru. District winners compete for ultimate state recognition."
     }
@@ -191,7 +191,8 @@ const DrawingCompetition = () => {
         <div className="mb-20">
           <div className="text-center mb-12">
             <h3 className="text-3xl font-bold text-slate-900 mb-4">Competition Phases</h3>
-            <p className="text-lg text-slate-600">Progressive structure ensuring fair selection and maximum participation</p>
+            <p className="text-lg text-slate-600">Progressive structure ensuring fair selection and maximum participation. 
+              <br/> A maximum of three winners per category, with only the top winner advancing to the next level. </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -234,10 +235,10 @@ const DrawingCompetition = () => {
 
           <div className="text-center mt-12">
             <Button className="bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white px-8 py-4 text-lg rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
-              Registration Opens Aug 10, 2025
+              Registration Opens Aug 15, 2025
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
-            <p className="text-slate-500 mt-4">Entry Fee: ₹20 per student</p>
+            <p className="text-slate-500 mt-4">Entry Fee: ₹50 per student</p>
           </div>
         </div>
       </div>

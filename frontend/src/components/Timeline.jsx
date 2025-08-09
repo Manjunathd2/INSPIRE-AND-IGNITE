@@ -6,7 +6,7 @@ import { Calendar, CheckCircle, Clock, ArrowDown } from 'lucide-react';
 const Timeline = () => {
   const events = [
     {
-      date: "August 10, 2025",
+      date: "August 15, 2025",
       event: "Drawing Competition Registration Opens",
       description: "Online portal opens for Canvas of Creativity drawing competition. Schools can register students across all categories.",
       status: "upcoming",
@@ -22,7 +22,7 @@ const Timeline = () => {
       icon: Calendar
     },
     {
-      date: "August 31, 2025",
+      date: "Aug 31, 2025",
       event: "Drawing Competition Registration Closes",
       description: "Final deadline for all school registrations for the drawing competition. No extensions will be provided.",
       status: "upcoming", 
@@ -30,7 +30,7 @@ const Timeline = () => {
       icon: Clock
     },
     {
-      date: "September 1-10, 2025",
+      date: "September 1-05, 2025",
       event: "School Level Competitions",
       description: "Individual schools conduct internal competitions. Maximum 3 winners per category advance to Taluk level.",
       status: "upcoming",
@@ -38,7 +38,7 @@ const Timeline = () => {
       icon: CheckCircle
     },
     {
-      date: "September 15-30, 2025",
+      date: "September 10-20, 2025",
       event: "Taluk Level Competitions", 
       description: "School winners compete at taluk level. Top 3 per category from each taluk proceed to district level.",
       status: "upcoming",
@@ -46,7 +46,7 @@ const Timeline = () => {
       icon: CheckCircle
     },
     {
-      date: "October 1-31, 2025",
+      date: "October 10-20, 2025",
       event: "District Level Competitions",
       description: "Taluk winners compete at district level. Best 3 per category advance to the state finals in Bengaluru.",
       status: "upcoming",
@@ -54,7 +54,7 @@ const Timeline = () => {
       icon: CheckCircle
     },
     {
-      date: "November 1, 2025",
+      date: "November 2, 2025",
       event: "State Level Finals & Nominations Close",
       description: "Grand finale of drawing competition in Bengaluru. Teacher awards nominations and public voting also closes.",
       status: "upcoming",
